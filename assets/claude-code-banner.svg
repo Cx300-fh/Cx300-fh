@@ -1,0 +1,74 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cx300-fh terminal banner</title>
+  <desc id="desc">A dark terminal-inspired GitHub profile banner with warm code highlights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11100E"/>
+      <stop offset="0.52" stop-color="#181512"/>
+      <stop offset="1" stop-color="#242018"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="80" y1="64" x2="1120" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171615"/>
+      <stop offset="1" stop-color="#0D0D0C"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2D19B"/>
+      <stop offset="1" stop-color="#C8762E"/>
+    </linearGradient>
+    <filter id="softShadow" x="30" y="34" width="1140" height="376" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#2C2924" stroke-width="1" opacity="0.42"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.55"/>
+
+  <g opacity="0.35">
+    <path d="M978 32L1130 184L978 336" stroke="#4B4032" stroke-width="2"/>
+    <path d="M222 32L70 184L222 336" stroke="#4B4032" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="80" y="64" width="1040" height="296" rx="18" fill="url(#panel)" stroke="#3A342B"/>
+    <rect x="80" y="64" width="1040" height="46" rx="18" fill="#211E1A"/>
+    <path d="M80 93C80 77 93 64 109 64H1091C1107 64 1120 77 1120 93V110H80V93Z" fill="#211E1A"/>
+    <circle cx="114" cy="88" r="7" fill="#E06C5F"/>
+    <circle cx="138" cy="88" r="7" fill="#DCA95E"/>
+    <circle cx="162" cy="88" r="7" fill="#80B56F"/>
+    <text x="600" y="93" text-anchor="middle" fill="#8E8478" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">Cx300-fh / profile.md</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="125" y="156" fill="#C8762E" font-size="18">$</text>
+    <text x="150" y="156" fill="#F4EFE7" font-size="18">claude-code style --profile Cx300-fh</text>
+    <rect x="150" y="172" width="330" height="2" fill="url(#gold)" opacity="0.8"/>
+
+    <text x="125" y="218" fill="#F4EFE7" font-size="56" font-weight="700">Cx300-fh</text>
+    <text x="128" y="260" fill="#CEC4B8" font-size="22">terminal-first builder</text>
+    <text x="128" y="294" fill="#8E8478" font-size="17">idea -> prompt -> patch -> test -> ship</text>
+
+    <g transform="translate(790 148)">
+      <rect x="0" y="0" width="250" height="148" rx="12" fill="#151412" stroke="#3A342B"/>
+      <text x="22" y="36" fill="#8E8478" font-size="15">workspace</text>
+      <text x="22" y="70" fill="#F4EFE7" font-size="17">README.md</text>
+      <text x="22" y="101" fill="#C8762E" font-size="17">+ design</text>
+      <text x="22" y="126" fill="#80B56F" font-size="17">+ shipped</text>
+    </g>
+
+    <g opacity="0.9">
+      <text x="690" y="336" fill="#5D554C" font-size="14">git commit -m "make profile feel alive"</text>
+      <rect x="1050" y="324" width="10" height="18" fill="#C8762E">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.35s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
