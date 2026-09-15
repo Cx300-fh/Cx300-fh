@@ -6,7 +6,9 @@ Undergraduate at **Tsinghua University**, Xinya College and the Department of El
 
 I work on **computer vision, world models, and harnesses**, with an interest in how embodied agents perceive, remember, and reason about the world.
 
-[Homepage](https://cx300-fh.github.io/Cx300-fh/) · [Email](mailto:li-yx24@mails.tsinghua.edu.cn) · [CV](docs/Yuxin-Li-CV.pdf)
+[Homepage](https://cx300-fh.github.io/) · [Blog](https://cx300-fh.github.io/blog/) · [CV](https://cx300-fh.github.io/cv/) · [Publications](https://cx300-fh.github.io/publications/) · [Gallery](https://cx300-fh.github.io/gallery/) · [Projects](https://cx300-fh.github.io/projects/)
+
+[Email](mailto:li-yx24@mails.tsinghua.edu.cn) · [Download CV](docs/Yuxin-Li-CV.pdf)
 
 ### Selected work
 

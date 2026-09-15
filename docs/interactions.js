@@ -12,7 +12,7 @@
           observer.unobserve(entry.target);
         }
       }), { threshold: .08 });
-      document.querySelectorAll('.paper, .section-heading, .experience-entry, .award, .about-grid, .contact').forEach(el => observer.observe(el));
+      document.querySelectorAll('.paper, .section-heading, .experience-entry, .content-card, .gallery-card, .about-grid, .contact').forEach(el => observer.observe(el));
       const card = document.querySelector('.polaroid');
       const pointer = event => {
         if (event.pointerType !== 'mouse' || !card) return;
