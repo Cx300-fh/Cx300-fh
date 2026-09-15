@@ -1,4 +1,4 @@
-<img src="docs/images/avatar.jpg" alt="My WeChat avatar" width="150" align="right" />
+<img src="docs/images/yuxin-li.jpg" alt="Portrait of Yuxin Li" width="150" align="right" />
 
 # Yuxin Li
 
